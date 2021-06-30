@@ -1,0 +1,38 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgb(76, 222, 230), rgb(156, 196, 156));
+  &__form {
+    height: 500px;
+    width: 500px;
+    // background: linear-gradient(135deg, rgb(76, 222, 230), rgb(156, 196, 156));
+    // box-shadow: 1px solid;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+  }
+}
+input {
+  height: 30px;
+  width: 50%;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  //   box-sizing: border-box;
+  font-size: 1.5rem;
+}
+label {
+  //   padding: 10px 10px;
+  font-size: 20px;
+}
+button {
+  height: 40px;
+  width: 100px;
+}

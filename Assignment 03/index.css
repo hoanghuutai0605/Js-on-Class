@@ -1,0 +1,37 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 0.5rem;
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+  padding-top: 5rem;
+}
+.filter button {
+  height: 50px;
+  font-size: 17px;
+  width: auto;
+  background-color: rgb(49, 204, 221);
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 0.1rem 1rem;
+  transition: all 0.25s;
+  border-radius: 4px;
+}
+.filter button:hover {
+  transform: scale(1.05);
+  background-color: rgb(34, 190, 208);
+  color: white;
+}
